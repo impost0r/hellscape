@@ -122,6 +122,14 @@ And of course in IDA it is even worse due to switch lowering:
 
 <p align="center"><img src="https://i.imgur.com/tM1awwR.png" height="500"></p>
 
+##### Hellspawn
+Hellspawn.sh is a Bash script that should generate a secure seed for use with Hellscape. It can be invoked independently or as follows - 
+`-fplugin-arg-hellscape-seed=$(bash hellscape.sh)`
+
+Result is as follows: 
+➜  ~ bash hellspawn.sh
+-5700624975265256851
+
 ### Adding a custom pass
 
 If you ever get stuck, reference one of the existing passes, they're well documented. That being said, the general idea is as follows:
