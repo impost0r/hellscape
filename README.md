@@ -127,9 +127,11 @@ Hellspawn.sh is a Bash script that should generate a secure seed for use with He
 `-fplugin-arg-hellscape-seed=$(bash hellscape.sh)`
 
 Result is as follows: 
+```
 ➜  ~ bash hellspawn.sh
 
 -5700624975265256851
+```
 
 ### Adding a custom pass
 
